@@ -14,35 +14,7 @@ This is a Flutter example application that demonstrates how to use nested maps i
 ## Screenshots
 
 ![Screenshot](screenshots/screenshot.png)
-
-## Usage
-
-To run this example application, follow these steps:
-
-1. Clone this repository:
-
-   ```bash
-   git clone https://github.com/your-username/nested-map-example.git
-   ```
-
-2. Change to the project directory:
-
-   ```bash
-   cd nested-map-example
-   ```
-
-3. Install the dependencies:
-
-   ```bash
-   flutter pub get
-   ```
-
-4. Run the app:
-
-   ```bash
-   flutter run
-   ```
-
+ 
 ## How It Works
 
 This application uses the `NestedMapProvider` class to manage the nested map data and interact with `SharedPreferences` for local storage. The `NestedMapProvider` class extends the `ChangeNotifier` class and provides methods to add, update, and delete users in the nested map. It also initializes the nested map data from `SharedPreferences` when the app starts.
@@ -72,37 +44,7 @@ Bu, Flutter örnek bir uygulamasıdır ve iç içe geçmiş haritaları nasıl k
 ## Ekran Görüntüleri
 
 ![Ekran Görüntüsü](screenshots/screenshot.png)
-
-## Kullanım
-
-Bu örnek uygulamayı çalıştırmak için aşağıdaki adımları izleyin
-
-:
-
-1. Bu depoyu klonlayın:
-
-   ```bash
-   git clone https://github.com/sizin-kullanıcı-adınız/ic-ice-harita-ornek.git
-   ```
-
-2. Proje dizinine geçin:
-
-   ```bash
-   cd ic-ice-harita-ornek
-   ```
-
-3. Bağımlılıkları yükleyin:
-
-   ```bash
-   flutter pub get
-   ```
-
-4. Uygulamayı çalıştırın:
-
-   ```bash
-   flutter run
-   ```
-
+ 
 ## Nasıl Çalışır
 
 Bu uygulama, iç içe geçmiş harita verilerini yönetmek ve yerel depolama için `SharedPreferences` ile etkileşimde bulunmak için `NestedMapProvider` sınıfını kullanır. `NestedMapProvider` sınıfı, `ChangeNotifier` sınıfını genişletir ve iç içe geçmiş harita verilerini eklemek, güncellemek ve silmek için yöntemler sağlar. Uygulama başladığında, iç içe geçmiş harita verileri `SharedPreferences`'den başlatılır.
@@ -114,6 +56,4 @@ Uygulamanın ana ekranı, `Consumer` bileşenini kullanarak iç içe geçmiş ha
 - `provider`: Flutter için bir durum yönetimi kütüphanesi.
 - `shared_preferences`: Tercihlere erişmek ve saklamak için bir eklenti.
 
-## Lisans
-
-Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır.
+ 
